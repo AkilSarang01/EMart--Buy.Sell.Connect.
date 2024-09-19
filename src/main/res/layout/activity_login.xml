@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    tools:context=".login">
+
+    <TextView
+        android:id="@+id/wel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/alata"
+        android:gravity="center"
+        android:text="Welcome Login"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/lg_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wel"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawablePadding="20dp"
+        android:hint="Email"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/lg_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lg_mail"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="20dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/lg_signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lg_pass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/button"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="LOGIN" />
+
+    <TextView
+        android:id="@+id/lg_fp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lg_signin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Forgot password?"
+        android:textColor="@color/white" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/cd1"
+        android:layout_below="@+id/lg_fp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="40dp"
+        tools:ignore="MissingClass,NotSibling,OnClick">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#02DBC4">
+
+            <ImageView
+                android:id="@+id/signgg"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/lg_fp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/gg" />
+
+            <TextView
+                android:id="@+id/signInWithGoogle"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="43dp"
+                android:fontFamily="@font/alata"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="43dp"
+                android:paddingLeft="10dp"
+                android:text="Sign In With Google"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+<!--    <TextView-->
+<!--        android:id="@+id/signInWithGoogle"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_below="@id/lg_fp"-->
+<!--        android:fontFamily="@font/alata"-->
+<!--        android:paddingTop="20dp"-->
+<!--        android:paddingLeft="20dp"-->
+<!--        android:text="Sign-In With google"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:background="@drawable/button"-->
+<!--        android:textSize="18dp" />-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="30dp"-->
+<!--        android:layout_height="28dp"-->
+<!--        android:src="@drawable/gg"-->
+<!--        android:id="@+id/gg"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="480dp"/>-->
+
+
+</RelativeLayout>
+
+
+

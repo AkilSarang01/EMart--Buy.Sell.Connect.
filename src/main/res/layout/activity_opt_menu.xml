@@ -1,0 +1,191 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    tools:context=".opt_menu">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<!--1.-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_margin="20dp"
+            android:onClick="Card1"
+            app:cardCornerRadius="40dp"
+            app:cardElevation="25dp"
+            tools:ignore="MissingClass,NotSibling,OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#02DBC4">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/buysell" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:paddingLeft="145dp"
+                    android:paddingTop="50dp"
+                    android:textColor="#ffffff"
+                    android:text="Buy And Sell"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    android:layout_marginStart="43dp"-->
+<!--                    android:layout_marginTop="50dp"-->
+<!--                    android:layout_marginEnd="43dp"-->
+<!--                    android:layout_marginBottom="43dp"-->
+<!--                    android:fontFamily="sans-serif-smallcaps"-->
+<!--                    android:paddingLeft="125dp"-->
+<!--                    android:text="Buy And Sell"-->
+<!--                    android:textAlignment="center"-->
+<!--                    android:textSize="20dp"-->
+<!--                    android:textColor="@color/white"-->
+<!--                    android:textStyle="bold"-->
+<!--                    tools:ignore="HardcodedText" />-->
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+<!--        2.-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:id="@+id/card2"
+            android:onClick="Card2"
+            android:layout_below="@id/card1"
+            app:cardElevation="25dp"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="20dp"
+            tools:ignore="MissingClass,OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#02DBC4">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:padding="8dp"
+                    android:src="@drawable/chat"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:paddingLeft="145dp"
+                    android:paddingTop="50dp"
+                    android:textColor="#ffffff"
+                    android:text="Chat Room"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+<!--        3.-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:id="@+id/card3"
+            android:onClick="Card3"
+            android:layout_below="@id/card2"
+            app:cardElevation="25dp"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="20dp"
+            tools:ignore="MissingClass,OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#02DBC4">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:padding="5dp"
+                    android:src="@drawable/events" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="50dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginEnd="35dp"
+                    android:layout_marginBottom="35dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:paddingLeft="140dp"
+                    android:text="Events And Programs"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+<!--        4.-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:id="@+id/card4"
+            android:onClick="Card4"
+            android:layout_below="@id/card3"
+            app:cardElevation="25dp"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="20dp"
+            tools:ignore="MissingClass,OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#02DBC4">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:padding="5dp"
+                    android:src="@drawable/notes" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="43dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginEnd="43dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginBottom="15dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:paddingLeft="110dp"
+                    android:text="Study Material"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</ScrollView>

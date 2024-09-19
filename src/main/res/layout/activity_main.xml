@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3d32c7"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="200dp"
+        android:src="@drawable/splash" />
+
+    <TextView
+        android:id="@+id/txt_1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_marginTop="450dp"
+        android:fontFamily="@font/alata"
+        android:text="E-Mart"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/txt_2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/text_1"
+        android:gravity="center"
+        android:layout_marginTop="490dp"
+        android:fontFamily="@font/alata"
+        android:text="All Your Needs Under One Roof"
+        android:textAlignment="center"
+        android:textColor="#00ffff"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        tools:ignore="HardcodedText,UnknownId" />
+
+
+</RelativeLayout>

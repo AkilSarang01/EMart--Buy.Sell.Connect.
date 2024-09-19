@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "166654215597",
+    "firebase_url": "https://mgmcet-e-mart-fb376-default-rtdb.firebaseio.com",
+    "project_id": "mgmcet-e-mart-fb376",
+    "storage_bucket": "mgmcet-e-mart-fb376.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166654215597:android:bb79baaeac485147e04d24",
+        "android_client_info": {
+          "package_name": "com.akilsrg.mgmcete_mart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166654215597-c8ukojbfjdh61av0t8ovvc1eej0a9nbq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akilsrg.mgmcete_mart",
+            "certificate_hash": "4523b05816b929875f859a71d81ed8c2575e03ec"
+          }
+        },
+        {
+          "client_id": "166654215597-hsg2q5t2rvrlnm9rt6mhkcmkn3853r4v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQnt8mT96kz979PgNKnv28yrKKAoRAMbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166654215597-hsg2q5t2rvrlnm9rt6mhkcmkn3853r4v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
