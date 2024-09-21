@@ -1,7 +1,17 @@
 # E-MART: College Management Application
 
 ## Overview
-E-MART is an Android application designed for students and faculty at educational institutions, enabling a streamlined platform for buying and selling used items, sharing study materials, and posting announcements. By transitioning from a paper-based system to a digital one, E-MART enhances communication, saves time, and improves accessibility for all users.
+E-MART is an Android application designed for students and faculty at educational institutions, facilitating a streamlined platform for buying and selling used items, sharing study materials, and posting announcements. By transitioning from a paper-based system to a digital one, E-MART enhances communication, saves time, and improves accessibility for all users.
+
+## Table of Contents
+1. [Features](#features)
+2. [Technologies Used](#technologies-used)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Snapshots of Application](#snapshots-of-application)
+6. [Conclusion](#conclusion)
+7. [Contributing](#contributing)
+8. [Contact](#contact)
 
 ## Features
 - **Buy/Sell Platform**: Students can easily list and purchase used textbooks and stationery.
@@ -14,6 +24,7 @@ E-MART is an Android application designed for students and faculty at educationa
 - **Android Studio**: Integrated development environment for Android applications.
 - **Java**: Programming language for Android app development.
 - **Firebase**: Real-time database for secure data storage and retrieval.
+- **XML**: For user interface design.
 
 ## Installation
 1. Clone the repository:
@@ -29,11 +40,14 @@ E-MART is an Android application designed for students and faculty at educationa
 - **Login**: Existing users can log in and access personalized features.
 - **Navigation**: Users can easily navigate between different functionalities through the main menu.
 
+## Snapshots of Application
+Check out the various snapshots of the E-MART application [here](https://github.com/AkilSarang01/EMart-Your-Campus-Marketplace-/tree/master/Snapshots).
+
 ## Conclusion
 E-MART provides a comprehensive solution for managing student needs and faculty communication within educational institutions. With its array of features and user-friendly design, it simplifies interactions and enhances the overall academic experience.
-
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your enhancements or bug fixes.
 
-
+## Contact
+For inquiries, please contact: [sarangakil74@gmail.com](mailto:sarangakil74@gmail.com).
